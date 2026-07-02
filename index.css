@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@media print {
+  html, body, #app-container {
+    background: white !important;
+    background-color: white !important;
+    color: black !important;
+    min-height: auto !important;
+    height: auto !important;
+  }
+  
+  /* Force background colors and graphical elements to render in PDF prints */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
