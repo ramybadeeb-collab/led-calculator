@@ -1,0 +1,6 @@
+{
+  "name": "حاسبة الشاشات الإعلانية LED",
+  "description": "تطبيق لحساب عدد المديولات، كروت الاستقبال، محولات الطاقة، ودقة الشاشات الإعلانية بدقة عالية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
